@@ -9,16 +9,39 @@
 <body>
     <div class="disclaimer-bar">⚠️ ESTO ES UNA PARODIA/SÁTIRA - NO ES REAL - PROYECTO FICTICIO ⚠️</div>
 
+    <div class="propaganda-marquee">
+        <div class="marquee-content">
+            ★ LA PRODUCCIÓN AUMENTÓ UN 847% ★ TODOS LOS CIUDADANOS SON FELICES ★ EL LÍDER INVENTÓ EL ARCOÍRIS ★ NO HAY NADA QUE VER AFUERA ★ LA INTRANET ES MEJOR QUE INTERNET ★ EL KIMCHI CURA TODO ★ DESEMPLEO: -5% ★ NUEVO RÉCORD DE APLAUSOS: 47 HORAS ★
+        </div>
+    </div>
+
     <header class="main-header">
         <div class="header-top">
-            <div class="flag-decoration left"></div>
+            <div class="flag-decoration left">
+                <svg viewBox="0 0 100 100" class="flag-svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#ffd700" stroke-width="3"/>
+                    <polygon points="50,15 58,40 85,40 63,55 71,80 50,65 29,80 37,55 15,40 42,40" fill="#ffd700"/>
+                </svg>
+            </div>
             <div class="header-center">
-                <div class="star-emblem">★</div>
+                <div class="emblem">
+                    <svg viewBox="0 0 200 200" class="emblem-svg">
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="#ffd700" stroke-width="4"/>
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#ffd700" stroke-width="2"/>
+                        <polygon points="100,25 115,70 165,70 125,95 140,140 100,115 60,140 75,95 35,70 85,70" fill="#ffd700" opacity="0.9"/>
+                        <text x="100" y="175" text-anchor="middle" fill="#ffd700" font-size="14" font-weight="bold">광명망</text>
+                    </svg>
+                </div>
                 <h1 class="site-title">광명망</h1>
                 <h2 class="site-subtitle">KWANGMYONG - Red Nacional de Información</h2>
                 <p class="site-slogan">조선민주주의인민공화국 — República Popular Democrática de Corea</p>
             </div>
-            <div class="flag-decoration right"></div>
+            <div class="flag-decoration right">
+                <svg viewBox="0 0 100 100" class="flag-svg">
+                    <circle cx="50" cy="50" r="45" fill="none" stroke="#ffd700" stroke-width="3"/>
+                    <polygon points="50,15 58,40 85,40 63,55 71,80 50,65 29,80 37,55 15,40 42,40" fill="#ffd700"/>
+                </svg>
+            </div>
         </div>
         <nav class="main-nav">
             <ul>
@@ -28,6 +51,8 @@
                 <li><a href="#" data-section="ciencia">과학 (Ciencia)</a></li>
                 <li><a href="#" data-section="cultura">문화 (Cultura)</a></li>
                 <li><a href="#" data-section="servicios">서비스 (Servicios)</a></li>
+                <li><a href="#" data-section="lealtad">충성 (Lealtad)</a></li>
+                <li><a href="#" data-section="social">사회 (Social)</a></li>
             </ul>
         </nav>
     </header>
@@ -36,9 +61,51 @@
         <!-- Inicio -->
         <section id="inicio" class="page-section active">
             <div class="welcome-banner">
-                <div class="banner-text">
-                    <h2>영광스러운 조국에 오신 것을 환영합니다</h2>
-                    <p>Bienvenido a la Gloriosa Red de Información Nacional</p>
+                <div class="banner-poster">
+                    <svg viewBox="0 0 800 200" class="poster-svg">
+                        <rect width="800" height="200" fill="#8b0000"/>
+                        <rect x="0" y="0" width="800" height="8" fill="#ffd700"/>
+                        <rect x="0" y="192" width="800" height="8" fill="#ffd700"/>
+                        <polygon points="400,20 420,70 475,70 430,100 448,150 400,120 352,150 370,100 325,70 380,70" fill="#ffd700" opacity="0.3"/>
+                        <text x="400" y="85" text-anchor="middle" fill="#ffd700" font-size="32" font-weight="bold" font-family="serif">영광스러운 조국에 오신 것을 환영합니다</text>
+                        <text x="400" y="125" text-anchor="middle" fill="white" font-size="20" font-family="sans-serif">Bienvenido a la Gloriosa Red de Información Nacional</text>
+                        <text x="400" y="160" text-anchor="middle" fill="#ffecb3" font-size="14" font-family="sans-serif">★ Donde la verdad es lo que decimos que es ★</text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="poster-gallery">
+                <div class="poster" style="--poster-bg: #8b0000;">
+                    <div class="poster-content">
+                        <div class="poster-icon">📡</div>
+                        <h4>KWANGMYONG</h4>
+                        <p>28 sitios web es todo lo que necesitas</p>
+                        <div class="poster-star">★</div>
+                    </div>
+                </div>
+                <div class="poster" style="--poster-bg: #003366;">
+                    <div class="poster-content">
+                        <div class="poster-icon">🏭</div>
+                        <h4>PRODUCCIÓN</h4>
+                        <p>Trabaja más. Pregunta menos.</p>
+                        <div class="poster-star">★</div>
+                    </div>
+                </div>
+                <div class="poster" style="--poster-bg: #2e4a1e;">
+                    <div class="poster-content">
+                        <div class="poster-icon">👁️</div>
+                        <h4>VIGILANCIA</h4>
+                        <p>Te observamos porque te queremos</p>
+                        <div class="poster-star">★</div>
+                    </div>
+                </div>
+                <div class="poster" style="--poster-bg: #4a1a2e;">
+                    <div class="poster-content">
+                        <div class="poster-icon">🚫</div>
+                        <h4>INTERNET</h4>
+                        <p>Peligro capitalista. No tocar.</p>
+                        <div class="poster-star">★</div>
+                    </div>
                 </div>
             </div>
 
@@ -47,24 +114,37 @@
                     <div class="news-highlight">
                         <h3 class="section-header">📰 주요 뉴스 - Noticias Destacadas</h3>
                         <div class="news-item featured">
-                            <span class="date">주체 115 (2026) - 6월 19일</span>
+                            <div class="news-img-placeholder">
+                                <svg viewBox="0 0 300 120">
+                                    <rect width="300" height="120" fill="#f0e6d0"/>
+                                    <rect x="20" y="15" width="260" height="90" fill="#8b0000" rx="5"/>
+                                    <text x="150" y="50" text-anchor="middle" fill="#ffd700" font-size="14" font-weight="bold">FÁBRICA DE KIMCHI</text>
+                                    <text x="150" y="70" text-anchor="middle" fill="white" font-size="10">47M toneladas/hora</text>
+                                    <text x="150" y="95" text-anchor="middle" fill="#ffd700" font-size="20">🏭 ★ 🏭</text>
+                                </svg>
+                            </div>
+                            <span class="date">주체 115 (2026) - 6월 20일</span>
                             <h4>Gran Líder Inspecciona Nueva Fábrica de Kimchi Automatizada</h4>
-                            <p>En un acto de infinita sabiduría, se inauguró la fábrica que produce 47 millones de toneladas de kimchi por hora. Los trabajadores lloraron de alegría durante 6 horas consecutivas (mínimo obligatorio).</p>
+                            <p>En un acto de infinita sabiduría, se inauguró la fábrica que produce 47 millones de toneladas de kimchi por hora.</p>
+                            <div class="news-reactions">
+                                <button class="reaction-btn" onclick="addReaction(this, '👏')">👏 <span>4,721</span></button>
+                                <button class="reaction-btn" onclick="addReaction(this, '😭')">😭 <span>3,891</span></button>
+                                <button class="reaction-btn" onclick="addReaction(this, '⭐')">⭐ <span>9,999</span></button>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <span class="date">주체 115 - 6월 19일</span>
+                            <h4>Científicos Descubren que el Sol Sale por Pyongyang</h4>
+                            <p>El sol nace cada mañana específicamente sobre la capital, en honor a la nación.</p>
+                            <div class="news-reactions">
+                                <button class="reaction-btn" onclick="addReaction(this, '👏')">👏 <span>2,341</span></button>
+                                <button class="reaction-btn" onclick="addReaction(this, '🌞')">🌞 <span>5,678</span></button>
+                            </div>
                         </div>
                         <div class="news-item">
                             <span class="date">주체 115 - 6월 18일</span>
-                            <h4>Científicos Nacionales Descubren que el Sol Sale por Pyongyang</h4>
-                            <p>Investigadores del Instituto de Ciencias Absolutamente Reales confirmaron que el sol nace cada mañana específicamente sobre la capital, en honor a la nación.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="date">주체 115 - 6월 17일</span>
-                            <h4>Selección Nacional de Fútbol Gana Copa del Mundo 15-0</h4>
-                            <p>En un partido que nadie más vio pero que definitivamente ocurrió, la selección aplastó a todos los equipos simultáneamente.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="date">주체 115 - 6월 16일</span>
-                            <h4>Nuevo Récord: Ciudadano Promedio Duerme 0 Horas por Devoción</h4>
-                            <p>Los ciudadanos reportan voluntariamente que no necesitan dormir gracias a su amor infinito por la patria. El insomnio es ahora un logro nacional.</p>
+                            <h4>Selección de Fútbol Gana Copa del Mundo 15-0</h4>
+                            <p>En un partido que nadie más vio pero que definitivamente ocurrió.</p>
                         </div>
                     </div>
                 </div>
@@ -72,34 +152,48 @@
                 <aside class="sidebar">
                     <div class="widget propaganda-widget">
                         <h3>🌟 Pensamiento del Día</h3>
-                        <blockquote id="quote-of-day">
-                            "El internet es innecesario cuando tienes una intranet que tiene todo lo que necesitas saber (y nada más)."
-                        </blockquote>
+                        <blockquote id="quote-of-day">"Cargando pensamiento aprobado..."</blockquote>
                         <p class="quote-author">— Departamento de Verdades Absolutas</p>
+                    </div>
+
+                    <div class="widget loyalty-meter-widget">
+                        <h3>❤️ Tu Nivel de Lealtad</h3>
+                        <div class="loyalty-meter">
+                            <div class="meter-bar"><div class="meter-fill" id="loyalty-fill"></div></div>
+                            <p class="meter-label" id="loyalty-label">Calculando...</p>
+                            <button class="btn-primary" onclick="increaseLoyalty()">Aumentar Lealtad</button>
+                            <p class="note">Cada clic es registrado y agradecido</p>
+                        </div>
                     </div>
 
                     <div class="widget stats-widget">
                         <h3>📊 Estadísticas Nacionales</h3>
                         <ul class="stats-list">
-                            <li><span class="stat-label">Felicidad Nacional:</span> <span class="stat-value">100%</span></li>
-                            <li><span class="stat-label">Producción Agrícola:</span> <span class="stat-value">∞ ton</span></li>
+                            <li><span class="stat-label">Felicidad:</span> <span class="stat-value">100%</span></li>
+                            <li><span class="stat-label">Producción:</span> <span class="stat-value">∞ ton</span></li>
                             <li><span class="stat-label">Desempleo:</span> <span class="stat-value">-5%</span></li>
-                            <li><span class="stat-label">Libertad de Prensa:</span> <span class="stat-value">Sí*</span></li>
+                            <li><span class="stat-label">VPNs detectadas:</span> <span class="stat-value live-counter" id="vpn-count">0</span></li>
                         </ul>
-                        <p class="stat-footnote">* Libertad de imprimir lo que decimos</p>
                     </div>
 
                     <div class="widget weather-widget">
-                        <h3>🌤️ Clima en Pyongyang</h3>
+                        <h3>🌤️ Clima</h3>
                         <div class="weather-display">
+                            <div class="weather-icon-animated"><span class="sun-icon">☀️</span></div>
                             <span class="temp">주체°C</span>
-                            <p>Siempre perfecto por decreto</p>
+                            <p>Perfecto por decreto</p>
+                            <div class="weather-forecast">
+                                <span>Lu☀️</span><span>Ma☀️</span><span>Mi☀️</span><span>Ju☀️</span><span>Vi☀️</span>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="widget alert-widget">
-                        <h3>⚠️ Aviso Importante</h3>
-                        <p>Recordatorio: Está prohibido tener un corte de pelo no aprobado. Consulte la lista de los <strong>28 cortes autorizados</strong>.</p>
+                    <div class="widget clock-widget">
+                        <h3>🕐 Hora Oficial</h3>
+                        <div class="clock-display">
+                            <span id="pyongyang-clock">00:00:00</span>
+                            <p>La única hora que importa</p>
+                        </div>
                     </div>
                 </aside>
             </div>
@@ -110,36 +204,57 @@
             <h2 class="page-title">뉴스 — Agencia Central de Noticias (100% Verificadas*)</h2>
             <p class="page-subtitle">* Verificadas por el Ministerio de Verificar Cosas</p>
 
+            <div class="breaking-news">
+                <span class="breaking-label">ÚLTIMA HORA</span>
+                <div class="breaking-text" id="breaking-news-text">Cargando...</div>
+            </div>
+
             <div class="news-list">
                 <article class="news-card">
+                    <div class="news-card-img">
+                        <svg viewBox="0 0 400 150">
+                            <rect width="400" height="150" fill="#1a1a2e"/>
+                            <text x="200" y="60" text-anchor="middle" fill="#ffd700" font-size="40">🦄</text>
+                            <text x="200" y="100" text-anchor="middle" fill="white" font-size="14">EVIDENCIA FOTOGRÁFICA REAL*</text>
+                            <text x="200" y="120" text-anchor="middle" fill="#888" font-size="9">*La cámara estaba rota pero confiá</text>
+                        </svg>
+                    </div>
                     <div class="news-category urgent">URGENTE</div>
-                    <h3>Unicornio Encontrado en Cueva Ancestral Confirma Legitimidad Divina</h3>
-                    <p>Arqueólogos estatales descubrieron la guarida del unicornio que montaba el fundador de la nación. El unicornio dejó una nota que dice "todo esto es legítimo".</p>
+                    <h3>Unicornio Encontrado en Cueva Ancestral</h3>
+                    <p>Arqueólogos estatales descubrieron la guarida del unicornio que montaba el fundador de la nación.</p>
+                    <span class="news-date">주체 115.06.20</span>
+                    <div class="news-reactions">
+                        <button class="reaction-btn" onclick="addReaction(this, '🦄')">🦄 <span>12,345</span></button>
+                        <button class="reaction-btn" onclick="addReaction(this, '👏')">👏 <span>99,999</span></button>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card-img">
+                        <svg viewBox="0 0 400 150">
+                            <rect width="400" height="150" fill="#003366"/>
+                            <text x="200" y="50" text-anchor="middle" fill="white" font-size="16">VELOCIDAD DE RED</text>
+                            <rect x="50" y="70" width="300" height="30" fill="#1a1a2e" rx="15"/>
+                            <rect x="50" y="70" width="300" height="30" fill="#00ff00" rx="15" opacity="0.8"/>
+                            <text x="200" y="90" text-anchor="middle" fill="black" font-size="14" font-weight="bold">500% MÁS RÁPIDO</text>
+                            <text x="200" y="130" text-anchor="middle" fill="#aaa" font-size="10">*Porque solo hay 28 sitios</text>
+                        </svg>
+                    </div>
+                    <div class="news-category tech">TECNOLOGÍA</div>
+                    <h3>Red Kwangmyong 500% Más Rápida</h3>
+                    <p>Solo hay 28 sitios web aprobados, la velocidad de carga es instantánea.</p>
                     <span class="news-date">주체 115.06.19</span>
                 </article>
                 <article class="news-card">
-                    <div class="news-category tech">TECNOLOGÍA</div>
-                    <h3>Red Kwangmyong Ahora 500% Más Rápida que Internet Capitalista</h3>
-                    <p>Gracias a que solo hay 28 sitios web aprobados, la velocidad de carga es instantánea. Los ingenieros celebran eliminando más sitios para ir aún más rápido.</p>
+                    <div class="news-category sports">DEPORTES</div>
+                    <h3>Atleta Corre 100m en -3 Segundos</h3>
+                    <p>Llegó antes de empezar.</p>
                     <span class="news-date">주체 115.06.18</span>
                 </article>
                 <article class="news-card">
-                    <div class="news-category sports">DEPORTES</div>
-                    <h3>Atleta Nacional Rompe Récord al Correr 100m en -3 Segundos</h3>
-                    <p>Llegó antes de empezar. Los jueces internacionales no estaban presentes porque "les daba miedo perder".</p>
-                    <span class="news-date">주체 115.06.17</span>
-                </article>
-                <article class="news-card">
                     <div class="news-category economy">ECONOMÍA</div>
-                    <h3>Won Norcoreano Ahora Vale Más que el Oro, Bitcoin y la Felicidad Juntos</h3>
-                    <p>Economistas del Partido calcularon que 1 Won = 847 lingotes de oro. Cualquier discrepancia con mercados extranjeros se debe a "envidia capitalista".</p>
-                    <span class="news-date">주체 115.06.16</span>
-                </article>
-                <article class="news-card">
-                    <div class="news-category culture">CULTURA</div>
-                    <h3>Nuevo Himno Nacional de 47 Estrofas Ahora Obligatorio Antes de Cada Comida</h3>
-                    <p>Se recomienda empezar a cantar 2 horas antes de tener hambre para optimizar tiempos.</p>
-                    <span class="news-date">주체 115.06.15</span>
+                    <h3>Won Vale Más que Oro, Bitcoin y Felicidad Juntos</h3>
+                    <p>1 Won = 847 lingotes de oro. Cualquier discrepancia = "envidia capitalista".</p>
+                    <span class="news-date">주체 115.06.17</span>
                 </article>
             </div>
         </section>
@@ -147,42 +262,53 @@
         <!-- Educación -->
         <section id="educacion" class="page-section">
             <h2 class="page-title">교육 — Centro de Educación Patriótica</h2>
+            <div class="edu-banner">
+                <svg viewBox="0 0 800 80">
+                    <rect width="800" height="80" fill="#003366"/>
+                    <text x="400" y="35" text-anchor="middle" fill="#ffd700" font-size="20" font-weight="bold">📚 EDUCACIÓN ES PODER (Nuestro poder) 📚</text>
+                    <text x="400" y="60" text-anchor="middle" fill="white" font-size="12">Aprenda solo lo que necesita saber. Nosotros decidimos qué es.</text>
+                </svg>
+            </div>
             <div class="edu-grid">
                 <div class="edu-card">
                     <h3>📚 Historia (Versión Correcta™)</h3>
                     <ul>
-                        <li>Lección 1: Cómo inventamos todo antes que todos</li>
-                        <li>Lección 2: Por qué el resto del mundo nos envidia</li>
-                        <li>Lección 3: La hamburguesa fue inventada aquí en 2009</li>
-                        <li>Lección 4: Historia de los 0 errores del gobierno</li>
+                        <li>Cómo inventamos todo antes que todos</li>
+                        <li>Por qué el resto del mundo nos envidia</li>
+                        <li>La hamburguesa fue inventada aquí en 2009</li>
+                        <li>Historia de los 0 errores del gobierno</li>
                     </ul>
+                    <div class="progress-bar"><div class="progress-fill" style="width:100%">100%</div></div>
                 </div>
                 <div class="edu-card">
                     <h3>🔬 Ciencia Juche</h3>
                     <ul>
-                        <li>Física: La gravedad funciona diferente aquí (mejor)</li>
-                        <li>Biología: Nuestro ADN tiene una estrella extra</li>
-                        <li>Química: Tabla periódica patriótica (solo elementos leales)</li>
-                        <li>Matemáticas: 2+2 = lo que sea necesario</li>
+                        <li>La gravedad funciona diferente aquí (mejor)</li>
+                        <li>Nuestro ADN tiene una estrella extra</li>
+                        <li>Tabla periódica: solo elementos leales</li>
+                        <li>2+2 = lo que sea necesario</li>
                     </ul>
+                    <div class="progress-bar"><div class="progress-fill" style="width:100%">100%</div></div>
                 </div>
                 <div class="edu-card">
                     <h3>🌍 Geografía Aprobada</h3>
                     <ul>
                         <li>Corea del Norte: 99.7% del mundo</li>
                         <li>Corea del Sur: Error geográfico temporal</li>
-                        <li>Resto del mundo: Lugares que nos admiran</li>
+                        <li>Resto: Lugares que nos admiran</li>
                         <li>Internet: Lugar mítico y peligroso</li>
                     </ul>
+                    <div class="progress-bar"><div class="progress-fill" style="width:100%">100%</div></div>
                 </div>
                 <div class="edu-card">
                     <h3>💻 Informática Aprobada</h3>
                     <ul>
-                        <li>Red Star OS: El único sistema operativo real</li>
+                        <li>Red Star OS: El único SO real</li>
                         <li>Kwangmyong: Todo lo que necesitas</li>
-                        <li>Google: Propaganda occidental (no buscar)</li>
-                        <li>WiFi: Tecnología sospechosa del enemigo</li>
+                        <li>Google: Propaganda occidental</li>
+                        <li>WiFi: Tecnología sospechosa</li>
                     </ul>
+                    <div class="progress-bar"><div class="progress-fill" style="width:100%">100%</div></div>
                 </div>
             </div>
         </section>
@@ -190,30 +316,41 @@
         <!-- Ciencia -->
         <section id="ciencia" class="page-section">
             <h2 class="page-title">과학 — Instituto de Logros Científicos Incuestionables</h2>
-            <div class="science-content">
-                <div class="achievement-list">
-                    <div class="achievement">
-                        <div class="achievement-icon">🚀</div>
-                        <h3>Programa Espacial</h3>
-                        <p>Nuestros astronautas ya visitaron el Sol. Fueron de noche para no quemarse. La NASA copió nuestra idea pero les dio miedo.</p>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <div class="achievement-badge">
+                        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#8b0000" stroke="#ffd700" stroke-width="3"/><text x="50" y="58" text-anchor="middle" font-size="35">🚀</text></svg>
                     </div>
-                    <div class="achievement">
-                        <div class="achievement-icon">🧬</div>
-                        <h3>Cura Universal</h3>
-                        <p>Científicos desarrollaron una medicina que cura todo. Ingrediente principal: patriotismo concentrado. Efectos secundarios: aplaudir espontáneamente.</p>
+                    <h3>Programa Espacial</h3>
+                    <p>Visitamos el Sol de noche para no quemarnos.</p>
+                    <div class="achievement-stats"><span>Misiones: ∞</span><span>Éxito: 100%</span></div>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-badge">
+                        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#003366" stroke="#ffd700" stroke-width="3"/><text x="50" y="58" text-anchor="middle" font-size="35">🧬</text></svg>
                     </div>
-                    <div class="achievement">
-                        <div class="achievement-icon">⚡</div>
-                        <h3>Energía Infinita</h3>
-                        <p>Descubrimos cómo generar energía infinita. Los apagones son en realidad "descansos energéticos planificados" para que la red no se aburra.</p>
+                    <h3>Cura Universal</h3>
+                    <p>Ingrediente: patriotismo. Efecto secundario: aplaudir.</p>
+                    <div class="achievement-stats"><span>Curados: Todos</span><span>Eficacia: 주체%</span></div>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-badge">
+                        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#2e4a1e" stroke="#ffd700" stroke-width="3"/><text x="50" y="58" text-anchor="middle" font-size="35">⚡</text></svg>
                     </div>
-                    <div class="achievement">
-                        <div class="achievement-icon">🌊</div>
-                        <h3>Control del Clima</h3>
-                        <p>Podemos controlar el clima pero elegimos no hacerlo para mantener la experiencia "natural". Las inundaciones son "hidratación masiva del suelo".</p>
+                    <h3>Energía Infinita</h3>
+                    <p>Los apagones son "descansos energéticos planificados".</p>
+                    <div class="achievement-stats"><span>Watts: ∞</span><span>Apagones: 0*</span></div>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-badge">
+                        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="#4a1a2e" stroke="#ffd700" stroke-width="3"/><text x="50" y="58" text-anchor="middle" font-size="35">🌊</text></svg>
                     </div>
+                    <h3>Control del Clima</h3>
+                    <p>Inundaciones = "hidratación masiva del suelo".</p>
+                    <div class="achievement-stats"><span>Control: Total</span><span>Inundaciones: 0**</span></div>
                 </div>
             </div>
+            <p class="stat-footnote">* Features, no bugs. ** Redefinido como "riego patriótico".</p>
         </section>
 
         <!-- Cultura -->
@@ -221,43 +358,37 @@
             <h2 class="page-title">문화 — Entretenimiento Aprobado por el Comité</h2>
             <div class="culture-grid">
                 <div class="culture-card">
-                    <h3>🎬 Películas Aprobadas (Lista Completa)</h3>
-                    <ol>
-                        <li>"El Líder y el Atardecer Perfecto" (1-47)</li>
-                        <li>"Agricultores Felices: La Saga"</li>
-                        <li>"El Capitalismo es Malo: El Musical"</li>
-                        <li>"Documento de Productividad Vol. 238"</li>
-                    </ol>
-                    <p class="note">Nota: Todas las películas tienen final feliz. Es la ley.</p>
+                    <div class="card-img-placeholder">
+                        <svg viewBox="0 0 300 100"><rect width="300" height="100" fill="#1a1a2e"/><text x="150" y="45" text-anchor="middle" fill="white" font-size="30">🎬</text><text x="150" y="75" text-anchor="middle" fill="#ffd700" font-size="11">CINEMA PATRIÓTICO</text></svg>
+                    </div>
+                    <h3>🎬 Películas Aprobadas</h3>
+                    <ol><li>"El Líder y el Atardecer Perfecto" (1-47)</li><li>"Agricultores Felices: La Saga"</li><li>"El Capitalismo es Malo: El Musical"</li></ol>
+                    <p class="note">Todas tienen final feliz. Es la ley.</p>
                 </div>
                 <div class="culture-card">
+                    <div class="card-img-placeholder">
+                        <svg viewBox="0 0 300 100"><rect width="300" height="100" fill="#2e1a2e"/><text x="150" y="45" text-anchor="middle" fill="white" font-size="30">🎵</text><text x="150" y="75" text-anchor="middle" fill="#ffd700" font-size="11">MÚSICA APROBADA™</text></svg>
+                    </div>
                     <h3>🎵 Música Autorizada</h3>
-                    <ol>
-                        <li>Himno Nacional (versiones 1-28)</li>
-                        <li>"Marcha de la Alegría Obligatoria"</li>
-                        <li>"Balada del Tractor Heroico"</li>
-                        <li>"K-Pop" (Korea-del-Norte-Pop)</li>
-                    </ol>
-                    <p class="note">El jazz sigue bajo investigación por ser "demasiado libre".</p>
+                    <ol><li>Himno Nacional (versiones 1-28)</li><li>"Marcha de la Alegría Obligatoria"</li><li>"K-Pop" (Korea-del-Norte-Pop)</li></ol>
+                    <p class="note">El jazz está bajo investigación.</p>
                 </div>
                 <div class="culture-card">
+                    <div class="card-img-placeholder">
+                        <svg viewBox="0 0 300 100"><rect width="300" height="100" fill="#1a2e1a"/><text x="150" y="45" text-anchor="middle" fill="white" font-size="30">🎮</text><text x="150" y="75" text-anchor="middle" fill="#ffd700" font-size="11">GAMING JUCHE</text></svg>
+                    </div>
                     <h3>🎮 Videojuegos Permitidos</h3>
-                    <ol>
-                        <li>"Farming Simulator: Edición Juche"</li>
-                        <li>"Marchar en Línea Recta 2026"</li>
-                        <li>"Tetris Patriótico (solo forma de estrella)"</li>
-                        <li>"Angry Birds contra Imperialistas"</li>
-                    </ol>
-                    <p class="note">Prohibido perder. El game over es antipatriótico.</p>
+                    <ol><li>"Farming Simulator: Edición Juche"</li><li>"Tetris Patriótico (solo estrellas)"</li><li>"Angry Birds contra Imperialistas"</li></ol>
+                    <p class="note">Game over = antipatriótico.</p>
                 </div>
                 <div class="culture-card">
-                    <h3>📺 Programación de TV (3 canales)</h3>
-                    <ul>
-                        <li><strong>Canal 1:</strong> Noticias (todo va bien)</li>
-                        <li><strong>Canal 2:</strong> Más noticias (todo va mejor)</li>
-                        <li><strong>Canal 3:</strong> Documentales sobre lo bien que va todo</li>
-                    </ul>
-                    <p class="note">Horario: 17:00-22:00. El resto es hora de trabajar con alegría.</p>
+                    <h3>📺 TV (3 canales)</h3>
+                    <div class="tv-schedule">
+                        <div class="tv-channel"><span class="channel-num">1</span><span>Noticias (todo va bien)</span></div>
+                        <div class="tv-channel"><span class="channel-num">2</span><span>Más noticias (todo va mejor)</span></div>
+                        <div class="tv-channel"><span class="channel-num">3</span><span>Documentales sobre lo bien que va todo</span></div>
+                    </div>
+                    <p class="note">Horario: 17:00-22:00. El resto: trabajar con alegría.</p>
                 </div>
             </div>
         </section>
@@ -267,49 +398,158 @@
             <h2 class="page-title">서비스 — Servicios Digitales para el Pueblo</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>📧 Correo Electrónico Patriótico</h3>
+                    <h3>📧 Correo Patriótico</h3>
                     <div class="fake-form">
                         <input type="text" placeholder="usuario@kwangmyong.kp" disabled>
-                        <input type="password" placeholder="Contraseña (mínimo 28 caracteres de devoción)" disabled>
+                        <input type="password" placeholder="Contraseña (28 caracteres de devoción)" disabled>
                         <button class="btn-primary" onclick="showAlert('Su correo ha sido leído preventivamente. No hay mensajes sospechosos... por ahora.')">Iniciar Sesión</button>
                     </div>
                 </div>
                 <div class="service-card">
                     <h3>🔍 Motor de Búsqueda Nacional</h3>
                     <div class="fake-form">
-                        <input type="text" id="search-input" placeholder="Buscar en los 28 sitios aprobados...">
+                        <input type="text" id="search-input" placeholder="Buscar en los 28 sitios aprobados..." onkeypress="if(event.key==='Enter')fakeSearch()">
                         <button class="btn-primary" onclick="fakeSearch()">Buscar</button>
                         <div id="search-results"></div>
                     </div>
                 </div>
                 <div class="service-card">
-                    <h3>🛒 Tienda Online Estatal</h3>
+                    <h3>🛒 Tienda Estatal</h3>
                     <div class="store-items">
-                        <div class="store-item">
-                            <span class="item-name">Retrato Oficial (Obligatorio)</span>
-                            <span class="item-price">Gratis*</span>
-                        </div>
-                        <div class="store-item">
-                            <span class="item-name">Pin de Solapa</span>
-                            <span class="item-price">1 Won</span>
-                        </div>
-                        <div class="store-item">
-                            <span class="item-name">Libro de Citas (Vol. 1-892)</span>
-                            <span class="item-price">2 Won</span>
-                        </div>
-                        <div class="store-item">
-                            <span class="item-name">Kimchi Premium (igual al normal)</span>
-                            <span class="item-price">3 Won</span>
-                        </div>
+                        <div class="store-item" onclick="buyItem(this,'Retrato')"><span class="item-name">🖼️ Retrato Oficial</span><span class="item-price">Gratis*</span><button class="buy-btn">Comprar</button></div>
+                        <div class="store-item" onclick="buyItem(this,'Pin')"><span class="item-name">📌 Pin de Solapa</span><span class="item-price">1 Won</span><button class="buy-btn">Comprar</button></div>
+                        <div class="store-item" onclick="buyItem(this,'Libro')"><span class="item-name">📕 Libro de Citas</span><span class="item-price">2 Won</span><button class="buy-btn">Comprar</button></div>
+                        <div class="store-item" onclick="buyItem(this,'Kimchi')"><span class="item-name">🥬 Kimchi Premium</span><span class="item-price">3 Won</span><button class="buy-btn">Comprar</button></div>
                     </div>
-                    <p class="note">* Gratis pero obligatorio. No tenerlo cuesta más.</p>
+                    <p class="note">* Gratis pero obligatorio.</p>
                 </div>
                 <div class="service-card">
                     <h3>📋 Formulario de Quejas</h3>
                     <div class="fake-form">
-                        <textarea placeholder="Escriba su queja aquí... (será redirigida al Ministerio de Ignorar Quejas)" disabled rows="3"></textarea>
-                        <button class="btn-primary" onclick="showAlert('Su queja ha sido recibida y archivada en /dev/null. Gracias por su participación voluntaria en este ejercicio de democracia simulada.')">Enviar Queja</button>
-                        <p class="note">Tiempo estimado de respuesta: ∞ días hábiles</p>
+                        <textarea placeholder="Escriba su queja aquí..." rows="3"></textarea>
+                        <button class="btn-primary" onclick="showAlert('Su queja ha sido archivada en /dev/null. Tiempo de respuesta: ∞ días hábiles.')">Enviar Queja</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test de Lealtad -->
+        <section id="lealtad" class="page-section">
+            <h2 class="page-title">충성 — Test de Lealtad Patriótica (Obligatorio)</h2>
+            <p class="page-subtitle">Responda correctamente o su puntuación será reportada</p>
+            <div class="quiz-container" id="quiz-container">
+                <div class="quiz-progress"><div class="quiz-progress-bar" id="quiz-progress-bar"></div></div>
+                <div class="quiz-question" id="quiz-question">
+                    <h3 id="question-text"></h3>
+                    <div class="quiz-options" id="quiz-options"></div>
+                </div>
+                <div class="quiz-result" id="quiz-result" style="display:none;">
+                    <div class="result-icon" id="result-icon"></div>
+                    <h3 id="result-title"></h3>
+                    <p id="result-text"></p>
+                    <button class="btn-primary" onclick="startQuiz()">Intentar de Nuevo (Obligatorio)</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Red Social -->
+        <section id="social" class="page-section">
+            <h2 class="page-title">사회 — Red Social Patriótica "KwangBook"</h2>
+            <p class="page-subtitle">La única red social donde todos piensan igual (voluntariamente)</p>
+            <div class="social-layout">
+                <div class="social-feed">
+                    <div class="social-composer">
+                        <div class="composer-avatar">☆</div>
+                        <div class="composer-input">
+                            <textarea id="social-post-input" placeholder="¿Qué pensamiento aprobado quieres compartir?" rows="2"></textarea>
+                            <div class="composer-actions">
+                                <span class="composer-warning">⚠️ Todo será revisado</span>
+                                <button class="btn-primary" onclick="submitPost()" style="width:auto;padding:8px 20px;">Publicar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="social-feed-posts">
+                        <div class="social-post">
+                            <div class="post-header">
+                                <div class="post-avatar" style="background:#cc0000;">KJ</div>
+                                <div class="post-user-info">
+                                    <span class="post-username">Kim_Jong_Fan_847 <span class="verified-badge">✓</span></span>
+                                    <span class="post-time">Hace 2 horas</span>
+                                </div>
+                            </div>
+                            <div class="post-content"><p>¡Otro día increíble en el paraíso! 🌟 El kimchi de hoy estaba especialmente patriótico. #BendecidoPorElLíder #KimchiForever</p></div>
+                            <div class="post-image">
+                                <svg viewBox="0 0 500 150"><rect width="500" height="150" fill="#f5f0e1"/><text x="250" y="60" text-anchor="middle" font-size="40">🥬✨🇰🇵</text><text x="250" y="100" text-anchor="middle" fill="#8b0000" font-size="14" font-weight="bold">EL MEJOR KIMCHI DEL MUNDO</text><text x="250" y="125" text-anchor="middle" fill="#666" font-size="10">(No hay competencia)</text></svg>
+                            </div>
+                            <div class="post-actions">
+                                <button onclick="addReaction(this,'👏')">👏 <span>4,721</span></button>
+                                <button onclick="addReaction(this,'❤️')">❤️ <span>9,999</span></button>
+                                <button onclick="showAlert('Comentarios deshabilitados por su seguridad.')">💬</button>
+                            </div>
+                        </div>
+                        <div class="social-post promoted">
+                            <div class="post-header">
+                                <div class="post-avatar" style="background:#ffd700;color:#8b0000;">★</div>
+                                <div class="post-user-info">
+                                    <span class="post-username">Gobierno_Oficial <span class="verified-badge">✓ Supremo</span></span>
+                                    <span class="post-time">Promovido</span>
+                                </div>
+                            </div>
+                            <div class="post-content"><p>📢 RECORDATORIO: La felicidad es obligatoria. Los que no sonrían serán enviados a un "retiro de sonrisas". ¡Sonrían! 😊</p></div>
+                            <div class="post-actions">
+                                <button onclick="addReaction(this,'😊')">😊 <span>47,000,000</span></button>
+                                <button onclick="showAlert('No se puede no amar esta publicación.')">❤️ <span>47,000,000</span></button>
+                            </div>
+                        </div>
+                        <div class="social-post">
+                            <div class="post-header">
+                                <div class="post-avatar" style="background:#2e7d32;">AG</div>
+                                <div class="post-user-info">
+                                    <span class="post-username">Agricultor_Glorioso</span>
+                                    <span class="post-time">Hace 1 día</span>
+                                </div>
+                            </div>
+                            <div class="post-content"><p>500 toneladas de arroz por metro cuadrado. Secreto: cantarle el himno a las plantas 🌾🎵 #AgriculturaJuche</p></div>
+                            <div class="post-actions">
+                                <button onclick="addReaction(this,'🌾')">🌾 <span>8,432</span></button>
+                                <button onclick="addReaction(this,'👏')">👏 <span>6,789</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-sidebar">
+                    <div class="widget">
+                        <h3>👤 Tu Perfil</h3>
+                        <div class="profile-card">
+                            <div class="profile-avatar">☆</div>
+                            <p class="profile-name">Ciudadano #<span id="citizen-number">47000000</span></p>
+                            <p class="profile-status">Estado: Feliz (no opcional)</p>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <h3>🔥 Trending</h3>
+                        <ul class="trending-list">
+                            <li>#GraciasPorTodo <span>47M</span></li>
+                            <li>#KimchiEsVida <span>38M</span></li>
+                            <li>#MejorPaís <span>47M</span></li>
+                            <li>#NoNecesitoInternet <span>29M</span></li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h3>🚨 Reportar Vecino</h3>
+                        <div class="report-form">
+                            <input type="text" placeholder="Nombre del sospechoso" id="report-name">
+                            <select id="report-reason">
+                                <option>Sonrisa insuficiente</option>
+                                <option>Miró hacia el sur</option>
+                                <option>Corte de pelo sospechoso</option>
+                                <option>Tarareó música extranjera</option>
+                                <option>Preguntó "¿por qué?"</option>
+                                <option>Mencionó "internet"</option>
+                            </select>
+                            <button class="btn-primary" onclick="reportNeighbor()">Reportar</button>
+                            <p class="note">Recompensa: 1 ración extra de kimchi</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -318,19 +558,17 @@
 
     <footer class="main-footer">
         <div class="footer-content">
-            <div class="footer-propaganda">
-                <p>★ Gloria Eterna a la Patria ★</p>
-                <p>광명망 — Kwangmyong v주체.115</p>
+            <div class="footer-banner">
+                <svg viewBox="0 0 800 50"><rect width="800" height="50" fill="#1a1a2e"/><polygon points="400,5 408,22 428,22 412,32 418,48 400,40 382,48 388,32 372,22 392,22" fill="#ffd700"/><text x="200" y="32" text-anchor="middle" fill="#ffd700" font-size="13">★ Gloria Eterna ★</text><text x="600" y="32" text-anchor="middle" fill="#ffd700" font-size="13">★ a la Patria ★</text></svg>
             </div>
             <div class="footer-legal">
-                <p>© Juche 115 (2026) - Todos los derechos reservados por el Estado</p>
-                <p>Política de privacidad: No la hay. Términos de uso: Los nuestros.</p>
+                <p>광명망 — Kwangmyong v주체.115 | © Juche 115 (2026)</p>
+                <p>Privacidad: No la hay. Términos: Los nuestros.</p>
                 <p class="visitor-counter">Visitantes: <span id="visitor-count">47,000,000</span> (toda la población)</p>
             </div>
             <div class="footer-disclaimer">
-                <p><strong>⚠️ DISCLAIMER: Esto es una PARODIA/SÁTIRA con fines humorísticos.</strong></p>
-                <p>No tiene ninguna conexión real con Corea del Norte ni con ningún gobierno.</p>
-                <p>Proyecto ficticio creado como ejercicio creativo.</p>
+                <p><strong>⚠️ DISCLAIMER: PARODIA/SÁTIRA con fines humorísticos.</strong></p>
+                <p>Sin conexión real con Corea del Norte ni ningún gobierno. Proyecto ficticio.</p>
             </div>
         </div>
     </footer>
@@ -342,6 +580,11 @@
             <p id="alert-text"></p>
             <button class="btn-primary" onclick="closeAlert()">Entendido, Camarada</button>
         </div>
+    </div>
+
+    <div class="surveillance-eye" id="surveillance-eye" title="El Estado te observa">
+        <span>👁️</span>
+        <div class="eye-tooltip">El Estado te observa</div>
     </div>
 
     <script src="js/app.js"></script>
